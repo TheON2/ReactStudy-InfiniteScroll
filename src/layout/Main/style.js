@@ -8,6 +8,11 @@ export const MainContainer = styled.div`
   justify-self: center;
   width: 80%;
 `;
+export const Parent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 export const Container = styled.div`
   border: 1px solid #ddd;

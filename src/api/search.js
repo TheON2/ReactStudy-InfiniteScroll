@@ -16,4 +16,19 @@ const getPostSearch = async (param) => {
   return response.data;
 };
 
-export {getPostSearch};
+const getPictureSearch = async (param) => {
+  console.log(param)
+  const response = await api.get(`/images/search`,{
+    params: {
+      format: 'json',
+      limit: 6,
+      page:param.page,
+      mime_types:param.mime_types,
+      has_breeds:false,
+      size:'small',
+    },});
+  console.log(response.data)
+  return response.data;
+};
+
+export {getPostSearch,getPictureSearch};

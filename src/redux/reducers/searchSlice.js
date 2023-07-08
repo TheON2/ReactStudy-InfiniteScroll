@@ -5,7 +5,7 @@ const initialState = {
   data:[],
   preData:[],
   hasMorePost:true,
-  picType:'',
+  picType:'jpg',
   page:1,
 }
 
@@ -15,6 +15,8 @@ const searchSlice = createSlice({
   reducers: {
     changePicType:(state,action) =>{
       state.picType=action.payload
+      state.data=[]
+      state.preData=[]
     },
     searchResult:(state,action) =>{
       state.data=state.data.concat(action.payload)
@@ -35,7 +37,7 @@ const searchSlice = createSlice({
       state.data=[]
       state.preData=[]
       state.hasMorePost=true
-      state.picType=''
+      state.picType='jpg'
       state.page=1
     },
   },

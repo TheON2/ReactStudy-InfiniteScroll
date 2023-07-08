@@ -5,14 +5,12 @@ export const HeaderContainer = styled.div`
   width: 100%;
   background: transparent;
   justify-content: space-between;
-  margin-top: 30px;
   align-items: center;
 `;
 
 export const StyledSelect = styled.select`
-  width: 200px;
+  width: 150px;
   height: 40px;
-  padding: 10px;
   background: #fff;
   appearance: none; /* this is to remove the default arrow of select box in some browsers */
   font-size: 16px;
