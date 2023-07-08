@@ -110,7 +110,6 @@ export const ProfilePicture2 = styled.div`
     margin: 0 auto;
     object-fit: cover;
     animation: ${rotate2} 1s linear infinite;
-    filter: invert(1) brightness(2);
   }
 `;
 

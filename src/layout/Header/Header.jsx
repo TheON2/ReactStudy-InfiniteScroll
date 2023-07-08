@@ -6,15 +6,15 @@ const Header =()=>{
     <HeaderContainer>
       <Container>
         <Linker href='/'>
-          <Logo2>짹!</Logo2>
+          <Logo2>bow!</Logo2>
           <ProfilePicture2>
-            <img width="150px" src="https://avatars.githubusercontent.com/u/32028454?s=400&u=7993b49546f6ebb45968dbafa6c97c5789ec2254&v=4" />
+            <img width="150px" src="https://cdn2.thedogapi.com/images/w2lA_Tt6c.png" />
           </ProfilePicture2>
           <Logo>The Infinite</Logo>
           <ProfilePicture>
-            <img width="150px" src="https://avatars.githubusercontent.com/u/32028454?s=400&u=7993b49546f6ebb45968dbafa6c97c5789ec2254&v=4" />
+            <img width="150px" src="https://cdn2.thedogapi.com/images/w2lA_Tt6c.png" />
           </ProfilePicture>
-          <Logo2>짹!</Logo2>
+          <Logo2>wow!</Logo2>
         </Linker>
       </Container>
     </HeaderContainer>

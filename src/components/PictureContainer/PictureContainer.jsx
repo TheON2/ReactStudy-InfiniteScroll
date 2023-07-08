@@ -49,10 +49,12 @@ const PictureContainer =()=>{
   return(
     <>
       <PictureListHeader/>
+      <div>
       <PictureList/>
       <div id='bottom' style={{height:'150px'}} ref={ !prePictureLoading ? ref : undefined}>
         { !hasMorePost && <Parent><Loading /></Parent>}
       </div>
+    </div>
     </>
   )
 }

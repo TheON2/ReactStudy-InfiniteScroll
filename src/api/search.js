@@ -21,7 +21,7 @@ const getPictureSearch = async (param) => {
   const response = await api.get(`/images/search`,{
     params: {
       format: 'json',
-      limit: 6,
+      limit: 12,
       page:param.page,
       mime_types:param.mime_types,
       has_breeds:false,
